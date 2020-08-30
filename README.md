@@ -75,3 +75,28 @@ Since I have an RTX 270 card, I am able to use DXR even without the
 fallback layer.
 
 ![Turquoise Triangle](images/part-3.3.png)
+
+##### Experiments
+
+A solid triangle is rather bland. I figured I'd have some fun, and learn
+a bit about HLSL in the process, as I'm new to DirectX.
+
+In `Raytracing.hlsl` there is a block of code that can be uncommented to reveal
+the easter egg:
+
+![Triangle Trellis](images/triangle-trellis.png)
+
+While making this, I learned some things about HLSL.
+[Microsoft's docs](https://docs.microsoft.com/en-us/windows/win32/direct3dhlsl/dx-graphics-hlsl-intrinsic-functions)
+were helpful for most of these.
+
+- `float3` works a little differently than `vec3` in that you have to be
+    explicit about all 3 components, `float3(1.0)` results in a compiler
+    error.
+- `fmod` is like GLSL's `mod()`
+- `modf` and `fmod` are two different things. The former splits a float into
+    integer and fractional parts in one operation. -- also learned that this
+    exists in GLSL as well, I didn't know that.
+- There are some other nice functions like `sincos` that computes both sine and
+    cosine at the same time. In my past shader artworks I use polar coordinates
+    a lot, so this is nice to have as a built-in function.

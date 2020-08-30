@@ -70,6 +70,18 @@ void MyRaygenShader()
 void MyClosestHitShader(inout RayPayload payload, in MyAttributes attr)
 {
     float3 barycentrics = float3(0.1, 0.4, 0.5);
+
+    /*
+     * Felt like having some fun and learning HLSL (I'm new to it, I usually use GLSL in WebGL)
+     * Learned a few things from Microsoft's documentation.
+     * 
+     * This makes a triangular trellis-like shape by using modulo to repeat the barycentric coords
+     * and step to make bands of color.
+     */
+    //float3 rawBary = float3(1.0 - attr.barycentrics.x - attr.barycentrics.y, attr.barycentrics.x, attr.barycentrics.y);
+    //float3 bucketed = frac(5.0 * rawBary);
+    //float3 thresholds = float3(0.3, 0.3, 0.3);
+    //barycentrics = float3(1.0 - step(thresholds, bucketed));
     payload.color = float4(barycentrics, 1);
 }
 
