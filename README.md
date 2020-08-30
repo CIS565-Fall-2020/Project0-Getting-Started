@@ -12,11 +12,11 @@ Project 0 Getting Started
 
 #### 3.1 CUDA
 
-In this first section of the lab, I was getting the `nvcc` error 
+**Note** In this first section of the project, I was getting the `nvcc` error 
 `unsupported gpu architecture compute_30` when I used the suggested
 `cmake-gui ..` command to configure the project. I tried again, this time using
 the `cmake ..` command I have used in the past. This time, it only enables
-`compute_75` capabilities. 
+`compute_75` capabilities. This seems to work fine in my case.
 
 ##### 3.1.1 Modify the program
 
@@ -26,22 +26,23 @@ Here is a screenshot of the modified program with my name:
 
 ##### 3.1.2 Analyze the program
 
-**EDIT** On Piazza,
-[a classmate posted](https://piazza.com/class/ke6j08dgmpt7lu?cid=11) a Visual
-Studio configuration setting that fixes the timeline crash. So I am able to use
-the plugin too if needed.
-
-![fixed Timeline](images/fixed-timeline.png)
-
-**Note** I learned that the Nsight Performance Analysis plugin does not
-work with recent GPUs like my RTX 2070 card. I tried the standalone Nsight
-Systems tool. See 
+**Note** I learned that the Nsight Performance Analysis plugin has compatibility
+issues with recent GPUs like my RTX 2070 card. There is a warning on the main
+tab, ~and the Timeline tab crashes~ (see note below for fix). Instead, I tried 
+the standalone Nsight Systems tool. See 
 [my Piazza note](https://piazza.com/class/ke6j08dgmpt7lu?cid=7) for more
 information.
 
 This separate program provides the required timeline feature:
 
 ![Timeline](images/part-3.1.2.png)
+
+**EDIT** On Piazza,
+[a classmate posted](https://piazza.com/class/ke6j08dgmpt7lu?cid=11) a Visual
+Studio configuration setting that fixes the timeline crash. So I am able to use
+the plugin too if needed.
+
+![fixed Timeline](images/fixed-timeline.png)
 
 ##### 3.1.3 Nsight Debugging
 
@@ -78,8 +79,9 @@ fallback layer.
 
 ##### Experiments
 
-A solid triangle is rather bland. I figured I'd have some fun, and learn
-a bit about HLSL in the process, as I'm new to DirectX.
+A solid triangle is rather bland. I figured I would have some fun, and learn
+a bit about HLSL in the process. I'm familiar with WebGL and GLSL, but
+DirectX is new to me.
 
 In `Raytracing.hlsl` there is a block of code that can be uncommented to reveal
 the easter egg:
@@ -91,7 +93,7 @@ While making this, I learned some things about HLSL.
 were helpful for most of these.
 
 - `float3` works a little differently than `vec3` in that you have to be
-    explicit about all 3 components, `float3(1.0)` results in a compiler
+    explicit about all 3 components. `float3(1.0)` results in a compiler
     error.
 - `fmod` is like GLSL's `mod()`
 - `modf` and `fmod` are two different things. The former splits a float into
