@@ -26,6 +26,13 @@ Here is a screenshot of the modified program with my name:
 
 ##### 3.1.2 Analyze the program
 
+**EDIT** On Piazza,
+[a classmate posted](https://piazza.com/class/ke6j08dgmpt7lu?cid=11) a Visual
+Studio configuration setting that fixes the timeline crash. So I am able to use
+the plugin too if needed.
+
+![fixed Timeline](images/fixed-timeline.png)
+
 **Note** I learned that the Nsight Performance Analysis plugin does not
 work with recent GPUs like my RTX 2070 card. I tried the standalone Nsight
 Systems tool. See 
