@@ -9,12 +9,12 @@ Project 0 Getting Started
 
 ### Test Result
 
-![](images/cuda.jpg)
+![](./images/cuda.jpg)
 
-![](images/cudaAnalysis.jpg)
+![](./images/cudaAnalysis.jpg)
 
-![](images/cudaDebug.jpg)
+![](./images/cudaDebug.jpg)
 
-![](ebglSupport.jpg)
+![](./images/webglSupport.jpg)
 
-![](dx.jpg)
+![](./images/dx.jpg)
