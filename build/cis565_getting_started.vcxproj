@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{ED0A1B8D-B7B8-3539-8BA5-1132E5BC686A}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>cis565_getting_started</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\CIS565_Proj\hw0\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cis565_getting_started.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cis565_getting_started</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\CIS565_Proj\hw0\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cis565_getting_started.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cis565_getting_started</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\CIS565_Proj\hw0\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cis565_getting_started.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">cis565_getting_started</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\CIS565_Proj\hw0\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cis565_getting_started.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">cis565_getting_started</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\CIS565_Proj\hw0\cuda-getting-started\external\include;D:\CUDA\v11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CUDA_COMPUTE_61;GLEW_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CUDA_COMPUTE_61;GLEW_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\CIS565_Proj\hw0\cuda-getting-started\external\include;D:\CUDA\v11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\CIS565_Proj\hw0\cuda-getting-started\external\include;D:\CUDA\v11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\CUDA\v11.0\lib\x64\cudart_static.lib;F:\CIS565_Proj\hw0\cuda-getting-started\external\lib\glew32s.lib;F:\CIS565_Proj\hw0\cuda-getting-started\external\lib\glfw3.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/CIS565_Proj/hw0/build/lib/Debug/cis565_getting_started.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/CIS565_Proj/hw0/build/bin/Debug/cis565_getting_started.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\CIS565_Proj\hw0\cuda-getting-started\external\include;D:\CUDA\v11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CUDA_COMPUTE_61;GLEW_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CUDA_COMPUTE_61;GLEW_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\CIS565_Proj\hw0\cuda-getting-started\external\include;D:\CUDA\v11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\CIS565_Proj\hw0\cuda-getting-started\external\include;D:\CUDA\v11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\CUDA\v11.0\lib\x64\cudart_static.lib;F:\CIS565_Proj\hw0\cuda-getting-started\external\lib\glew32s.lib;F:\CIS565_Proj\hw0\cuda-getting-started\external\lib\glfw3.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/CIS565_Proj/hw0/build/lib/Release/cis565_getting_started.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/CIS565_Proj/hw0/build/bin/Release/cis565_getting_started.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\CIS565_Proj\hw0\cuda-getting-started\external\include;D:\CUDA\v11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CUDA_COMPUTE_61;GLEW_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CUDA_COMPUTE_61;GLEW_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\CIS565_Proj\hw0\cuda-getting-started\external\include;D:\CUDA\v11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\CIS565_Proj\hw0\cuda-getting-started\external\include;D:\CUDA\v11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\CUDA\v11.0\lib\x64\cudart_static.lib;F:\CIS565_Proj\hw0\cuda-getting-started\external\lib\glew32s.lib;F:\CIS565_Proj\hw0\cuda-getting-started\external\lib\glfw3.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/CIS565_Proj/hw0/build/lib/MinSizeRel/cis565_getting_started.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/CIS565_Proj/hw0/build/bin/MinSizeRel/cis565_getting_started.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\CIS565_Proj\hw0\cuda-getting-started\external\include;D:\CUDA\v11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CUDA_COMPUTE_61;GLEW_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CUDA_COMPUTE_61;GLEW_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\CIS565_Proj\hw0\cuda-getting-started\external\include;D:\CUDA\v11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\CIS565_Proj\hw0\cuda-getting-started\external\include;D:\CUDA\v11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>D:\CUDA\v11.0\lib\x64\cudart_static.lib;F:\CIS565_Proj\hw0\cuda-getting-started\external\lib\glew32s.lib;F:\CIS565_Proj\hw0\cuda-getting-started\external\lib\glfw3.lib;opengl32.lib;glu32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/CIS565_Proj/hw0/build/lib/RelWithDebInfo/cis565_getting_started.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/CIS565_Proj/hw0/build/bin/RelWithDebInfo/cis565_getting_started.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\CIS565_Proj\hw0\cuda-getting-started\src\kernel.cu">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building NVCC (Device) object CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+cd F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\dir\bin\cmake.exe -E make_directory F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\dir\bin\cmake.exe -D verbose:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj -D generated_cubin_file:STRING=F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj.cubin.txt -P F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.Debug.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CUDA\v11.0\include\builtin_types.h;D:\CUDA\v11.0\include\channel_descriptor.h;D:\CUDA\v11.0\include\crt\common_functions.h;D:\CUDA\v11.0\include\crt\device_double_functions.h;D:\CUDA\v11.0\include\crt\device_double_functions.hpp;D:\CUDA\v11.0\include\crt\device_functions.h;D:\CUDA\v11.0\include\crt\device_functions.hpp;D:\CUDA\v11.0\include\crt\host_config.h;D:\CUDA\v11.0\include\crt\host_defines.h;D:\CUDA\v11.0\include\crt\math_functions.h;D:\CUDA\v11.0\include\crt\math_functions.hpp;D:\CUDA\v11.0\include\crt\sm_70_rt.h;D:\CUDA\v11.0\include\crt\sm_70_rt.hpp;D:\CUDA\v11.0\include\crt\sm_80_rt.h;D:\CUDA\v11.0\include\crt\sm_80_rt.hpp;D:\CUDA\v11.0\include\cuda.h;D:\CUDA\v11.0\include\cuda_device_runtime_api.h;D:\CUDA\v11.0\include\cuda_runtime.h;D:\CUDA\v11.0\include\cuda_runtime_api.h;D:\CUDA\v11.0\include\cuda_surface_types.h;D:\CUDA\v11.0\include\cuda_texture_types.h;D:\CUDA\v11.0\include\device_atomic_functions.h;D:\CUDA\v11.0\include\device_atomic_functions.hpp;D:\CUDA\v11.0\include\device_launch_parameters.h;D:\CUDA\v11.0\include\device_types.h;D:\CUDA\v11.0\include\driver_functions.h;D:\CUDA\v11.0\include\driver_types.h;D:\CUDA\v11.0\include\library_types.h;D:\CUDA\v11.0\include\sm_20_atomic_functions.h;D:\CUDA\v11.0\include\sm_20_atomic_functions.hpp;D:\CUDA\v11.0\include\sm_20_intrinsics.h;D:\CUDA\v11.0\include\sm_20_intrinsics.hpp;D:\CUDA\v11.0\include\sm_30_intrinsics.h;D:\CUDA\v11.0\include\sm_30_intrinsics.hpp;D:\CUDA\v11.0\include\sm_32_atomic_functions.h;D:\CUDA\v11.0\include\sm_32_atomic_functions.hpp;D:\CUDA\v11.0\include\sm_32_intrinsics.h;D:\CUDA\v11.0\include\sm_32_intrinsics.hpp;D:\CUDA\v11.0\include\sm_35_atomic_functions.h;D:\CUDA\v11.0\include\sm_35_intrinsics.h;D:\CUDA\v11.0\include\sm_60_atomic_functions.h;D:\CUDA\v11.0\include\sm_60_atomic_functions.hpp;D:\CUDA\v11.0\include\sm_61_intrinsics.h;D:\CUDA\v11.0\include\sm_61_intrinsics.hpp;D:\CUDA\v11.0\include\surface_functions.h;D:\CUDA\v11.0\include\surface_indirect_functions.h;D:\CUDA\v11.0\include\surface_types.h;D:\CUDA\v11.0\include\texture_fetch_functions.h;D:\CUDA\v11.0\include\texture_indirect_functions.h;D:\CUDA\v11.0\include\texture_types.h;D:\CUDA\v11.0\include\vector_functions.h;D:\CUDA\v11.0\include\vector_functions.hpp;D:\CUDA\v11.0\include\vector_types.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cmath;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\concurrencysal.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\crtdefs.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstdarg;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstddef;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstdio;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstdlib;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\eh.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\exception;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\initializer_list;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\limits.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\new;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\sal.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\stdarg.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\type_traits;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\use_ansi.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vadefs.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_exception.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_new.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_new_debug.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_string.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\xkeycheck.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\xstddef;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\xtr1common;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\yvals.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\yvals_core.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\assert.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\malloc.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\math.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\time.h;F:\CIS565_Proj\hw0\cuda-getting-started\src\kernel.h;F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.Debug.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\$(Configuration)\cis565_getting_started_generated_kernel.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building NVCC (Device) object CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+cd F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\dir\bin\cmake.exe -E make_directory F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\dir\bin\cmake.exe -D verbose:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj -D generated_cubin_file:STRING=F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj.cubin.txt -P F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CUDA\v11.0\include\builtin_types.h;D:\CUDA\v11.0\include\channel_descriptor.h;D:\CUDA\v11.0\include\crt\common_functions.h;D:\CUDA\v11.0\include\crt\device_double_functions.h;D:\CUDA\v11.0\include\crt\device_double_functions.hpp;D:\CUDA\v11.0\include\crt\device_functions.h;D:\CUDA\v11.0\include\crt\device_functions.hpp;D:\CUDA\v11.0\include\crt\host_config.h;D:\CUDA\v11.0\include\crt\host_defines.h;D:\CUDA\v11.0\include\crt\math_functions.h;D:\CUDA\v11.0\include\crt\math_functions.hpp;D:\CUDA\v11.0\include\crt\sm_70_rt.h;D:\CUDA\v11.0\include\crt\sm_70_rt.hpp;D:\CUDA\v11.0\include\crt\sm_80_rt.h;D:\CUDA\v11.0\include\crt\sm_80_rt.hpp;D:\CUDA\v11.0\include\cuda.h;D:\CUDA\v11.0\include\cuda_device_runtime_api.h;D:\CUDA\v11.0\include\cuda_runtime.h;D:\CUDA\v11.0\include\cuda_runtime_api.h;D:\CUDA\v11.0\include\cuda_surface_types.h;D:\CUDA\v11.0\include\cuda_texture_types.h;D:\CUDA\v11.0\include\device_atomic_functions.h;D:\CUDA\v11.0\include\device_atomic_functions.hpp;D:\CUDA\v11.0\include\device_launch_parameters.h;D:\CUDA\v11.0\include\device_types.h;D:\CUDA\v11.0\include\driver_functions.h;D:\CUDA\v11.0\include\driver_types.h;D:\CUDA\v11.0\include\library_types.h;D:\CUDA\v11.0\include\sm_20_atomic_functions.h;D:\CUDA\v11.0\include\sm_20_atomic_functions.hpp;D:\CUDA\v11.0\include\sm_20_intrinsics.h;D:\CUDA\v11.0\include\sm_20_intrinsics.hpp;D:\CUDA\v11.0\include\sm_30_intrinsics.h;D:\CUDA\v11.0\include\sm_30_intrinsics.hpp;D:\CUDA\v11.0\include\sm_32_atomic_functions.h;D:\CUDA\v11.0\include\sm_32_atomic_functions.hpp;D:\CUDA\v11.0\include\sm_32_intrinsics.h;D:\CUDA\v11.0\include\sm_32_intrinsics.hpp;D:\CUDA\v11.0\include\sm_35_atomic_functions.h;D:\CUDA\v11.0\include\sm_35_intrinsics.h;D:\CUDA\v11.0\include\sm_60_atomic_functions.h;D:\CUDA\v11.0\include\sm_60_atomic_functions.hpp;D:\CUDA\v11.0\include\sm_61_intrinsics.h;D:\CUDA\v11.0\include\sm_61_intrinsics.hpp;D:\CUDA\v11.0\include\surface_functions.h;D:\CUDA\v11.0\include\surface_indirect_functions.h;D:\CUDA\v11.0\include\surface_types.h;D:\CUDA\v11.0\include\texture_fetch_functions.h;D:\CUDA\v11.0\include\texture_indirect_functions.h;D:\CUDA\v11.0\include\texture_types.h;D:\CUDA\v11.0\include\vector_functions.h;D:\CUDA\v11.0\include\vector_functions.hpp;D:\CUDA\v11.0\include\vector_types.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cmath;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\concurrencysal.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\crtdefs.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstdarg;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstddef;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstdio;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstdlib;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\eh.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\exception;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\initializer_list;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\limits.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\new;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\sal.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\stdarg.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\type_traits;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\use_ansi.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vadefs.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_exception.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_new.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_new_debug.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_string.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\xkeycheck.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\xstddef;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\xtr1common;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\yvals.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\yvals_core.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\assert.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\malloc.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\math.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\time.h;F:\CIS565_Proj\hw0\cuda-getting-started\src\kernel.h;F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.Release.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\$(Configuration)\cis565_getting_started_generated_kernel.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building NVCC (Device) object CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+cd F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\dir\bin\cmake.exe -E make_directory F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\dir\bin\cmake.exe -D verbose:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj -D generated_cubin_file:STRING=F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj.cubin.txt -P F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.MinSizeRel.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CUDA\v11.0\include\builtin_types.h;D:\CUDA\v11.0\include\channel_descriptor.h;D:\CUDA\v11.0\include\crt\common_functions.h;D:\CUDA\v11.0\include\crt\device_double_functions.h;D:\CUDA\v11.0\include\crt\device_double_functions.hpp;D:\CUDA\v11.0\include\crt\device_functions.h;D:\CUDA\v11.0\include\crt\device_functions.hpp;D:\CUDA\v11.0\include\crt\host_config.h;D:\CUDA\v11.0\include\crt\host_defines.h;D:\CUDA\v11.0\include\crt\math_functions.h;D:\CUDA\v11.0\include\crt\math_functions.hpp;D:\CUDA\v11.0\include\crt\sm_70_rt.h;D:\CUDA\v11.0\include\crt\sm_70_rt.hpp;D:\CUDA\v11.0\include\crt\sm_80_rt.h;D:\CUDA\v11.0\include\crt\sm_80_rt.hpp;D:\CUDA\v11.0\include\cuda.h;D:\CUDA\v11.0\include\cuda_device_runtime_api.h;D:\CUDA\v11.0\include\cuda_runtime.h;D:\CUDA\v11.0\include\cuda_runtime_api.h;D:\CUDA\v11.0\include\cuda_surface_types.h;D:\CUDA\v11.0\include\cuda_texture_types.h;D:\CUDA\v11.0\include\device_atomic_functions.h;D:\CUDA\v11.0\include\device_atomic_functions.hpp;D:\CUDA\v11.0\include\device_launch_parameters.h;D:\CUDA\v11.0\include\device_types.h;D:\CUDA\v11.0\include\driver_functions.h;D:\CUDA\v11.0\include\driver_types.h;D:\CUDA\v11.0\include\library_types.h;D:\CUDA\v11.0\include\sm_20_atomic_functions.h;D:\CUDA\v11.0\include\sm_20_atomic_functions.hpp;D:\CUDA\v11.0\include\sm_20_intrinsics.h;D:\CUDA\v11.0\include\sm_20_intrinsics.hpp;D:\CUDA\v11.0\include\sm_30_intrinsics.h;D:\CUDA\v11.0\include\sm_30_intrinsics.hpp;D:\CUDA\v11.0\include\sm_32_atomic_functions.h;D:\CUDA\v11.0\include\sm_32_atomic_functions.hpp;D:\CUDA\v11.0\include\sm_32_intrinsics.h;D:\CUDA\v11.0\include\sm_32_intrinsics.hpp;D:\CUDA\v11.0\include\sm_35_atomic_functions.h;D:\CUDA\v11.0\include\sm_35_intrinsics.h;D:\CUDA\v11.0\include\sm_60_atomic_functions.h;D:\CUDA\v11.0\include\sm_60_atomic_functions.hpp;D:\CUDA\v11.0\include\sm_61_intrinsics.h;D:\CUDA\v11.0\include\sm_61_intrinsics.hpp;D:\CUDA\v11.0\include\surface_functions.h;D:\CUDA\v11.0\include\surface_indirect_functions.h;D:\CUDA\v11.0\include\surface_types.h;D:\CUDA\v11.0\include\texture_fetch_functions.h;D:\CUDA\v11.0\include\texture_indirect_functions.h;D:\CUDA\v11.0\include\texture_types.h;D:\CUDA\v11.0\include\vector_functions.h;D:\CUDA\v11.0\include\vector_functions.hpp;D:\CUDA\v11.0\include\vector_types.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cmath;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\concurrencysal.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\crtdefs.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstdarg;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstddef;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstdio;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstdlib;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\eh.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\exception;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\initializer_list;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\limits.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\new;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\sal.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\stdarg.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\type_traits;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\use_ansi.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vadefs.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_exception.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_new.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_new_debug.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_string.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\xkeycheck.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\xstddef;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\xtr1common;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\yvals.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\yvals_core.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\assert.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\malloc.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\math.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\time.h;F:\CIS565_Proj\hw0\cuda-getting-started\src\kernel.h;F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.MinSizeRel.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\$(Configuration)\cis565_getting_started_generated_kernel.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building NVCC (Device) object CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+cd F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\dir\bin\cmake.exe -E make_directory F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\dir\bin\cmake.exe -D verbose:BOOL=ON -D "CCBIN:PATH=$(VCInstallDir)Tools/MSVC/$(VCToolsVersion)/bin/Host$(Platform)/$(PlatformTarget)" -D build_configuration:STRING=$(ConfigurationName) -D generated_file:STRING=F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj -D generated_cubin_file:STRING=F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/$(Configuration)/cis565_getting_started_generated_kernel.cu.obj.cubin.txt -P F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.RelWithDebInfo.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CUDA\v11.0\include\builtin_types.h;D:\CUDA\v11.0\include\channel_descriptor.h;D:\CUDA\v11.0\include\crt\common_functions.h;D:\CUDA\v11.0\include\crt\device_double_functions.h;D:\CUDA\v11.0\include\crt\device_double_functions.hpp;D:\CUDA\v11.0\include\crt\device_functions.h;D:\CUDA\v11.0\include\crt\device_functions.hpp;D:\CUDA\v11.0\include\crt\host_config.h;D:\CUDA\v11.0\include\crt\host_defines.h;D:\CUDA\v11.0\include\crt\math_functions.h;D:\CUDA\v11.0\include\crt\math_functions.hpp;D:\CUDA\v11.0\include\crt\sm_70_rt.h;D:\CUDA\v11.0\include\crt\sm_70_rt.hpp;D:\CUDA\v11.0\include\crt\sm_80_rt.h;D:\CUDA\v11.0\include\crt\sm_80_rt.hpp;D:\CUDA\v11.0\include\cuda.h;D:\CUDA\v11.0\include\cuda_device_runtime_api.h;D:\CUDA\v11.0\include\cuda_runtime.h;D:\CUDA\v11.0\include\cuda_runtime_api.h;D:\CUDA\v11.0\include\cuda_surface_types.h;D:\CUDA\v11.0\include\cuda_texture_types.h;D:\CUDA\v11.0\include\device_atomic_functions.h;D:\CUDA\v11.0\include\device_atomic_functions.hpp;D:\CUDA\v11.0\include\device_launch_parameters.h;D:\CUDA\v11.0\include\device_types.h;D:\CUDA\v11.0\include\driver_functions.h;D:\CUDA\v11.0\include\driver_types.h;D:\CUDA\v11.0\include\library_types.h;D:\CUDA\v11.0\include\sm_20_atomic_functions.h;D:\CUDA\v11.0\include\sm_20_atomic_functions.hpp;D:\CUDA\v11.0\include\sm_20_intrinsics.h;D:\CUDA\v11.0\include\sm_20_intrinsics.hpp;D:\CUDA\v11.0\include\sm_30_intrinsics.h;D:\CUDA\v11.0\include\sm_30_intrinsics.hpp;D:\CUDA\v11.0\include\sm_32_atomic_functions.h;D:\CUDA\v11.0\include\sm_32_atomic_functions.hpp;D:\CUDA\v11.0\include\sm_32_intrinsics.h;D:\CUDA\v11.0\include\sm_32_intrinsics.hpp;D:\CUDA\v11.0\include\sm_35_atomic_functions.h;D:\CUDA\v11.0\include\sm_35_intrinsics.h;D:\CUDA\v11.0\include\sm_60_atomic_functions.h;D:\CUDA\v11.0\include\sm_60_atomic_functions.hpp;D:\CUDA\v11.0\include\sm_61_intrinsics.h;D:\CUDA\v11.0\include\sm_61_intrinsics.hpp;D:\CUDA\v11.0\include\surface_functions.h;D:\CUDA\v11.0\include\surface_indirect_functions.h;D:\CUDA\v11.0\include\surface_types.h;D:\CUDA\v11.0\include\texture_fetch_functions.h;D:\CUDA\v11.0\include\texture_indirect_functions.h;D:\CUDA\v11.0\include\texture_types.h;D:\CUDA\v11.0\include\vector_functions.h;D:\CUDA\v11.0\include\vector_functions.hpp;D:\CUDA\v11.0\include\vector_types.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cmath;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\concurrencysal.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\crtdefs.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstdarg;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstddef;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstdio;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\cstdlib;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\eh.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\exception;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\initializer_list;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\limits.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\new;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\sal.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\stdarg.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\type_traits;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\use_ansi.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vadefs.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_exception.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_new.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_new_debug.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\vcruntime_string.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\xkeycheck.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\xstddef;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\xtr1common;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\yvals.h;D:\VisualStudio_Community2019\dir\VC\Tools\MSVC\14.27.29110\include\yvals_core.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\assert.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_malloc.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_math.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memcpy_s.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_memory.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_search.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_stdio_config.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_terminate.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdio.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstdlib.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wstring.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\corecrt_wtime.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\crtdbg.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\errno.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\malloc.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\math.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stddef.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stdio.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\stdlib.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\string.h;D:\Windows Kits\10\Include\10.0.19041.0\ucrt\time.h;F:\CIS565_Proj\hw0\cuda-getting-started\src\kernel.h;F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.RelWithDebInfo.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\$(Configuration)\cis565_getting_started_generated_kernel.cu.obj</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\CIS565_Proj\hw0\cuda-getting-started\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/CIS565_Proj/hw0/cuda-getting-started/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\CMake\dir\bin\cmake.exe -SF:/CIS565_Proj/hw0/cuda-getting-started -BF:/CIS565_Proj/hw0/build --check-stamp-file F:/CIS565_Proj/hw0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\CMake\dir\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindCUDA.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindCUDA\run_nvcc.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindCUDA\select_compute_arch.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindOpenGL.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeSystem.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.cmake.pre-gen;F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.depend;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\CUDAComputesList.cmake;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\FindGLEW.cmake;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\FindGLFW.cmake;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\cuda_compute_capability.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\CIS565_Proj\hw0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/CIS565_Proj/hw0/cuda-getting-started/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\CMake\dir\bin\cmake.exe -SF:/CIS565_Proj/hw0/cuda-getting-started -BF:/CIS565_Proj/hw0/build --check-stamp-file F:/CIS565_Proj/hw0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\CMake\dir\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindCUDA.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindCUDA\run_nvcc.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindCUDA\select_compute_arch.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindOpenGL.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeSystem.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.cmake.pre-gen;F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.depend;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\CUDAComputesList.cmake;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\FindGLEW.cmake;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\FindGLFW.cmake;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\cuda_compute_capability.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\CIS565_Proj\hw0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/CIS565_Proj/hw0/cuda-getting-started/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\CMake\dir\bin\cmake.exe -SF:/CIS565_Proj/hw0/cuda-getting-started -BF:/CIS565_Proj/hw0/build --check-stamp-file F:/CIS565_Proj/hw0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\CMake\dir\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindCUDA.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindCUDA\run_nvcc.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindCUDA\select_compute_arch.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindOpenGL.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeSystem.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.cmake.pre-gen;F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.depend;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\CUDAComputesList.cmake;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\FindGLEW.cmake;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\FindGLFW.cmake;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\cuda_compute_capability.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\CIS565_Proj\hw0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/CIS565_Proj/hw0/cuda-getting-started/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\CMake\dir\bin\cmake.exe -SF:/CIS565_Proj/hw0/cuda-getting-started -BF:/CIS565_Proj/hw0/build --check-stamp-file F:/CIS565_Proj/hw0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\CMake\dir\share\cmake-3.18\Modules\CMakeCInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeRCInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\dir\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindCUDA.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindCUDA\run_nvcc.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindCUDA\select_compute_arch.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindOpenGL.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\dir\share\cmake-3.18\Modules\FindPackageMessage.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\Windows.cmake;D:\CMake\dir\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeCCompiler.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeCXXCompiler.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeRCCompiler.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\3.18.2\CMakeSystem.cmake;F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.cmake.pre-gen;F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\cis565_getting_started_generated_kernel.cu.obj.depend;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\CUDAComputesList.cmake;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\FindGLEW.cmake;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\FindGLFW.cmake;F:\CIS565_Proj\hw0\cuda-getting-started\cmake\cuda_compute_capability.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\CIS565_Proj\hw0\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src\$(Configuration)\cis565_getting_started_generated_kernel.cu.obj" />
+    <ClCompile Include="F:\CIS565_Proj\hw0\cuda-getting-started\src\glslUtility.cpp" />
+    <ClCompile Include="F:\CIS565_Proj\hw0\cuda-getting-started\src\main.cpp" />
+    <ClInclude Include="F:\CIS565_Proj\hw0\cuda-getting-started\src\glslUtility.hpp" />
+    <ClInclude Include="F:\CIS565_Proj\hw0\cuda-getting-started\src\kernel.h" />
+    <ClInclude Include="F:\CIS565_Proj\hw0\cuda-getting-started\src\main.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\CIS565_Proj\hw0\build\ZERO_CHECK.vcxproj">
+      <Project>{9C3B3925-849E-301A-BF63-E0F49104902D}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,26 @@
+^F:\CIS565_PROJ\HW0\CUDA-GETTING-STARTED\SRC\KERNEL.CU
+setlocal
+cd F:\CIS565_Proj\hw0\build\CMakeFiles\cis565_getting_started.dir\src
+if %errorlevel% neq 0 goto :cmEnd
+F:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\dir\bin\cmake.exe -E make_directory F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/Release
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\dir\bin\cmake.exe -D verbose:BOOL=ON -D "CCBIN:PATH=D:\VisualStudio_Community2019\dir\VC\Tools/MSVC/14.27.29110/bin/Hostx64/x64" -D build_configuration:STRING=Release -D generated_file:STRING=F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/Release/cis565_getting_started_generated_kernel.cu.obj -D generated_cubin_file:STRING=F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/Release/cis565_getting_started_generated_kernel.cu.obj.cubin.txt -P F:/CIS565_Proj/hw0/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^F:\CIS565_PROJ\HW0\CUDA-GETTING-STARTED\CMAKELISTS.TXT
+setlocal
+D:\CMake\dir\bin\cmake.exe -SF:/CIS565_Proj/hw0/cuda-getting-started -BF:/CIS565_Proj/hw0/build --check-stamp-file F:/CIS565_Proj/hw0/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
