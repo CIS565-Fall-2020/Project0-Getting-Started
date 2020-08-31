@@ -3,12 +3,30 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Xuecheng Sun
+  * LinkedIn: https://www.linkedin.com/in/hehehaha12138/
+* Tested on: Windows 10, Ryzen 7 3700X, 16GB Memory, RTX 2070 super 8GB
 
-### (TODO: Your README)
+### Results
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+##### CIS-565-Get Started Main Window
+
+![](./images/MainWindow.png)
+
+##### Nsight Timeline
+
+![](./images/NSightTimeLine.png)
+
+##### Nsight Debugging Cuda Info
+
+![](./images/warpInfo.png)
+
+##### Chrome GPU
+
+![](./images/chrome___gpu.png)
+
+##### DXR Testing
+
+![](DXR.png)
+
 
