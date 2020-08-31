@@ -27,6 +27,6 @@ Project 0 Getting Started
 
 ##### DXR Testing
 
-![](DXR.png)
+![](./images/DXR.png)
 
 
