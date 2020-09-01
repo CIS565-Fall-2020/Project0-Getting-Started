@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\cuda-getting-started\src\glslUtility.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\cuda-getting-started\src\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\cuda-getting-started\src\glslUtility.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\cuda-getting-started\src\kernel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\cuda-getting-started\src\main.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\cuda-getting-started\src\kernel.cu">
+      <Filter>Sources</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\cuda-getting-started\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src\$(Configuration)\cis565_getting_started_generated_kernel.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{C489135F-CEEE-37D8-8BC7-44E711FCAD9E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{395FD918-B986-3689-91EA-79381292ECA0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{720E9EBE-2EB2-336F-BC86-AEEA4FA0B521}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

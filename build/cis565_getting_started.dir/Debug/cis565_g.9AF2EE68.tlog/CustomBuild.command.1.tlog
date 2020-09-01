@@ -1,0 +1,26 @@
+^D:\GOOGLE DRIVE\PENN\4TH_YEAR\FALL\CIS_565\HOMEWORK\PROJECT0-GETTING-STARTED\CUDA-GETTING-STARTED\SRC\KERNEL.CU
+setlocal
+cd "D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src"
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory "D:/Google Drive/Penn/4th_year/fall/CIS_565/homework/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug"
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=ON -D "CCBIN:PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.21.27702/bin/Hostx64/x64" -D build_configuration:STRING=Debug -D "generated_file:STRING=D:/Google Drive/Penn/4th_year/fall/CIS_565/homework/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj" -D "generated_cubin_file:STRING=D:/Google Drive/Penn/4th_year/fall/CIS_565/homework/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Debug/cis565_getting_started_generated_kernel.cu.obj.cubin.txt" -P "D:/Google Drive/Penn/4th_year/fall/CIS_565/homework/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.Debug.cmake"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\GOOGLE DRIVE\PENN\4TH_YEAR\FALL\CIS_565\HOMEWORK\PROJECT0-GETTING-STARTED\CUDA-GETTING-STARTED\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Google Drive/Penn/4th_year/fall/CIS_565/homework/Project0-Getting-Started/cuda-getting-started" "-BD:/Google Drive/Penn/4th_year/fall/CIS_565/homework/Project0-Getting-Started/build" --check-stamp-file "D:/Google Drive/Penn/4th_year/fall/CIS_565/homework/Project0-Getting-Started/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
