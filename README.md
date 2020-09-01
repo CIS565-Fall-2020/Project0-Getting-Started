@@ -3,12 +3,21 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Janine Liu
+  * [LinkedIn](https://www.linkedin.com/in/liujanine/), [personal website](https://www.janineliu.com/).
+* Tested on: Windows 10, i7-10750H CPU @ 2.60GHz 16GB, GeForce RTX 2070 (personal computer:
 
-### (TODO: Your README)
+### 3.1.1: CUDA Project Screenshot
+![](images/windowsscreenshot.png)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+### 3.1.2: NSight Timeline
+![](images/timeline.png)
 
+### 3.1.3: NSight Debugging (Autos & Warp Info)
+![](images/warpandautos.png)
+
+### 3.2: WebGL Support
+![](images/webgl.png)
+
+### 3.3: DXR Modified Triangle
+![](images/DXR.png)
