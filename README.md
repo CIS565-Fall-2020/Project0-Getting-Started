@@ -19,6 +19,11 @@ Project 0 Getting Started
 ![](images/screenshot_3.1.2.png)
 * ### Screenshot of the Autos window and the Warp Info from Part 3.1.3's Nsight debugging
 ![](images/screenshot_3.1.3_warp_info.png)
+* ### Screenshots of WebGL 1 and WebGL 2 support from Part 3.2
+* ##### WebGL 1
+![](images/screenshot_3.2_webgl_1.png)
+* ##### WebGL 2
+![](images/screenshot_3.2_webgl_2.png)
 * ### Screenshot from Part 3.2 (`float3 barycentrics = float3(0, 0.8, 0);`)
 ![](images/screenshot_3.3_1.png)
 * ### Screenshot from Part 3.2 (`float3 barycentrics = float3(0, 0.8, 0.8);`)
