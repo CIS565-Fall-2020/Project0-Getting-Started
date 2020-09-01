@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 8/31/2020 11:26:44 PM.
+Build started 9/1/2020 12:41:04 AM.
 Project "D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\build\CMakeFiles\3.18.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -35,7 +35,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.41
+Time Elapsed 00:00:00.48
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 8/31/2020 11:26:45 PM.
+Build started 9/1/2020 12:41:05 AM.
 Project "D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\build\CMakeFiles\3.18.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -92,28 +92,28 @@ The CXX compiler identification is MSVC, found in "D:/Google Drive/Penn/4th_year
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/Google Drive/Penn/4th_year/fall/CIS_565/homework/Project0-Getting-Started/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f0b57.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f9f55.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.21.27702.2 for x64
   CMakeCCompilerABI.c
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f0b57.dir\Debug\\" /Fd"cmTC_f0b57.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
-  cmTC_f0b57.vcxproj -> D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\build\CMakeFiles\CMakeTmp\Debug\cmTC_f0b57.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f9f55.dir\Debug\\" /Fd"cmTC_f9f55.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCCompilerABI.c"
+  cmTC_f9f55.vcxproj -> D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\build\CMakeFiles\CMakeTmp\Debug\cmTC_f9f55.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/Google Drive/Penn/4th_year/fall/CIS_565/homework/Project0-Getting-Started/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9c515.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_f995b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.1.76+g14b0a930a7 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.21.27702.2 for x64
   CMakeCXXCompilerABI.cpp
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9c515.dir\Debug\\" /Fd"cmTC_9c515.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_9c515.vcxproj -> D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\build\CMakeFiles\CMakeTmp\Debug\cmTC_9c515.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_f995b.dir\Debug\\" /Fd"cmTC_f995b.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.18\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_f995b.vcxproj -> D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\build\CMakeFiles\CMakeTmp\Debug\cmTC_f995b.exe
 
 
 

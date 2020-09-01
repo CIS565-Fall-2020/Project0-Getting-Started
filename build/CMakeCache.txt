@@ -151,10 +151,10 @@ CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
 //If set, runtime paths are not added when installing shared libraries,
 // but are added when building.
-CMAKE_SKIP_INSTALL_RPATH:BOOL=OFF
+CMAKE_SKIP_INSTALL_RPATH:BOOL=NO
 
 //If set, runtime paths are not added when using shared libraries.
-CMAKE_SKIP_RPATH:BOOL=OFF
+CMAKE_SKIP_RPATH:BOOL=NO
 
 //Flags used by the linker during the creation of static libraries
 // during all build types.
@@ -180,7 +180,7 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // .SILENT directive, and all commands will be echoed to the console
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
-CMAKE_VERBOSE_MAKEFILE:BOOL=OFF
+CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Compile device code in 64 bit mode
 CUDA_64_BIT_DEVICE_CODE:BOOL=ON
@@ -251,7 +251,7 @@ CUDA_CUDA_LIBRARY:FILEPATH=C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v1
 CUDA_GENERATED_OUTPUT_DIR:PATH=
 
 //Whether CUDA-capable GPU is present
-CUDA_HAVE_GPU:BOOL=ON
+CUDA_HAVE_GPU:BOOL=TRUE
 
 //Generated file extension
 CUDA_HOST_COMPILATION_CPP:BOOL=ON

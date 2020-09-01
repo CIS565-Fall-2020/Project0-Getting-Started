@@ -30,7 +30,7 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\cuda_gl_interop
 D:\Google Drive\Penn\4th_year\fall\CIS_565\homework\Project0-Getting-Started\cuda-getting-started\src\main.cpp(224,1): warning C4996:  'cudaGLUnregisterBufferObject': was declared deprecated
   Generating Code...
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.0\include\cuda_gl_interop.h(404): message :  see declaration of 'cudaGLUnregisterBufferObject'
-glew32s.lib(glew.obj) : warning LNK4099: PDB '횿¢' was not found with 'glew32s.lib(glew.obj)' or at '횿¢'; linking object as if no debug info
+glew32s.lib(glew.obj) : warning LNK4099: PDB '噏÷' was not found with 'glew32s.lib(glew.obj)' or at '噏÷'; linking object as if no debug info
      Creating library D:/Google Drive/Penn/4th_year/fall/CIS_565/homework/Project0-Getting-Started/build/lib/Debug/cis565_getting_started.lib and object D:/Google Drive/Penn/4th_year/fall/CIS_565/homework/Project0-Getting-Started/build/lib/Debug/cis565_getting_started.exp
 LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
 LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
