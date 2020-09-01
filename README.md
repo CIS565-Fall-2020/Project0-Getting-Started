@@ -20,3 +20,5 @@ anything here that you don't want to share with the world.)
 ![](images/screenshot_3.1.1.png)
 * ### Screenshot of the timeline from Part 3.1.2's Nsight System's performance analysis
 ![](images/screenshot_3.1.2.png)
+* ### Screenshot of the Autos window and the Warp Info from Part 3.1.3's Nsight debugging
+![](images/screenshot_3.1.3_warp_info.png)
