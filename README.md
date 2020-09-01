@@ -18,3 +18,5 @@ anything here that you don't want to share with the world.)
 # Result:
 * ### Screenshot from Part 3.1.1
 ![](images/screenshot_3.1.1.png)
+* ### Screenshot of the timeline from Part 3.1.2's Nsight System's performance analysis
+![](images/screenshot_3.1.2.png)
