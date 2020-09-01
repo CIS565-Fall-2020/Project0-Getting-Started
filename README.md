@@ -5,7 +5,7 @@ Project 0 Getting Started
 
 * Janine Liu
   * [LinkedIn](https://www.linkedin.com/in/liujanine/), [personal website](https://www.janineliu.com/).
-* Tested on: Windows 10, i7-10750H CPU @ 2.60GHz 16GB, GeForce RTX 2070 w/ total available graphics memory of 16303MB, dediated video memory 8192 MB (personal computer)
+* Tested on: Windows 10, i7-10750H CPU @ 2.60GHz 16GB, GeForce RTX 2070 w/ total available graphics memory of 16303MB, dedicated video memory 8192 MB (personal computer)
 
 ### 3.1.1: CUDA Project Screenshot
 ![](images/windowscreenshot.png)
