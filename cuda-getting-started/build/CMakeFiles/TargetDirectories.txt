@@ -1,0 +1,3 @@
+C:/Users/hyan99/Desktop/Project0-Getting-Started/cuda-getting-started/build/CMakeFiles/cis565_getting_started.dir
+C:/Users/hyan99/Desktop/Project0-Getting-Started/cuda-getting-started/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/hyan99/Desktop/Project0-Getting-Started/cuda-getting-started/build/CMakeFiles/ZERO_CHECK.dir
