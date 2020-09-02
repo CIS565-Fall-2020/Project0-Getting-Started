@@ -21,7 +21,9 @@ anything here that you don't want to share with the world.)
 
 ### Part 3.2 WebGL
 
-![](images/chrome__gpu.png)
+![](images/Capture4.PNG)
+
+![](images/Capture5.PNG)
 
 ### Part 3.3 DXR
 
