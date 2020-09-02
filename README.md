@@ -19,3 +19,5 @@ Part 3.1.1: Modify the CUDA Project and Take a Screenshot
 ![](images/scrnshot1.PNG)
 Part 3.2: WebGL
 ![](images/scrnshot2.PNG)
+Part 3.3: DXR
+Can't do because using CETS Virtual Labs
