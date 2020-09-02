@@ -16,4 +16,4 @@ anything here that you don't want to share with the world.)
 Quadro P1000: Compute Capacilty = 6.1
 
 Part 3.1.1: Modify the CUDA Project and Take a Screenshot
-![](images/scrnshot1.png)
+![](images/scrnshot1.PNG)
