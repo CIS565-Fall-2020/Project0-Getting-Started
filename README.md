@@ -4,11 +4,24 @@ Project 0 Getting Started
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
 * Thy Tran (Tea)
-  * (TODO) [LinkedIn](https://www.linkedin.com/in/thy-tran-97a30b148/), [personal website](https://tatran5.github.io/), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+*[LinkedIn](https://www.linkedin.com/in/thy-tran-97a30b148/), [personal website](https://tatran5.github.io/)
+* Tested on: personal computer: Windows 10, i7-8750H @ 2.20GHz 22GB, GTX 1070 
 
-### (TODO: Your README)
+** Screenshots
+* Part 3.1.1
+![](image/3.1.1.PNG)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+* Part 3.1.2
+![](image/3.1.2_0.PNG)
+![](image/3.1.2_1.PNG)
+![](image/3.1.2_2.PNG)
 
+* Part 3.1.3
+![](image/3.1.3.PNG)
+
+* Part 3.2
+![](image/3.2_webgl_1.PNG)
+![](image/3.2_webgl_2.PNG)
+
+* Part 3.3
+![](image/3.3.PNG)
