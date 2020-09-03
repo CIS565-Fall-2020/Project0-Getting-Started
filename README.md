@@ -18,6 +18,7 @@ Project 0 Getting Started
 * ### Screenshot of the timeline from Part 3.1.2's Nsight System's performance analysis
 ![](images/screenshot_3.1.2.png)
 * ### Screenshot of the Autos window and the Warp Info from Part 3.1.3's Nsight debugging
+ (I was playing with the debugger and have been trying out breakpoints at different places, so you might not find the breakpoint on Line 30 when you open the file in Visual Studio)
 ![](images/screenshot_3.1.3_warp_info.png)
 * ### Screenshots of WebGL 1 and WebGL 2 support from Part 3.2
 * ##### WebGL 1
