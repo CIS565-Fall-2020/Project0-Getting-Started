@@ -1,0 +1,26 @@
+^D:\ACADEMICS\CIS-565-GPU-PROGRAMMING\PROJECT0-GETTING-STARTED\CUDA-GETTING-STARTED\SRC\KERNEL.CU
+setlocal
+cd D:\Academics\CIS-565-GPU-Programming\Project0-Getting-Started\build\CMakeFiles\cis565_getting_started.dir\src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory D:/Academics/CIS-565-GPU-Programming/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Release
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -D verbose:BOOL=ON -D "CCBIN:PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.27.29110/bin/Hostx64/x64" -D build_configuration:STRING=Release -D generated_file:STRING=D:/Academics/CIS-565-GPU-Programming/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Release/cis565_getting_started_generated_kernel.cu.obj -D generated_cubin_file:STRING=D:/Academics/CIS-565-GPU-Programming/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/Release/cis565_getting_started_generated_kernel.cu.obj.cubin.txt -P D:/Academics/CIS-565-GPU-Programming/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\ACADEMICS\CIS-565-GPU-PROGRAMMING\PROJECT0-GETTING-STARTED\CUDA-GETTING-STARTED\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Academics/CIS-565-GPU-Programming/Project0-Getting-Started/cuda-getting-started -BD:/Academics/CIS-565-GPU-Programming/Project0-Getting-Started/build --check-stamp-file D:/Academics/CIS-565-GPU-Programming/Project0-Getting-Started/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
