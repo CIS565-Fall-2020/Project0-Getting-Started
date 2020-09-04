@@ -34,5 +34,5 @@ Here is the screenshots that I took during this assignment.
 
 (3.3) Here is a screenshot of the triangle that renders. I am using DXR mode here, and I modified the triangle to be blue. 
 
-![](images/example.PNG)
+![](images/triangle.PNG)
 
