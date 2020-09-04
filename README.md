@@ -29,7 +29,7 @@ Project 0 Getting Started
 
 ### CUDA Debugging
 
-![](images/Nsight Debugging.PNG)
+![](images/NsightDebugging.PNG)
 
 
 
