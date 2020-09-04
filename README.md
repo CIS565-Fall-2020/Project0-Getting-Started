@@ -4,17 +4,14 @@ Project 0 Getting Started
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
 ## SIREESHA PUTCHA 
-
-|Social Media links |                       |
-|------------------ | ----------------------|
 	
-| <img src= "images/Logos/linkedin.png" alt = "LinkedIn" height = "35" width = "35">  | [LinkedIn](www.linkedin.com/in/sireesha-putcha)|
+<img src= "images/Logos/linkedin.png" alt = "LinkedIn" height = "30" width = "30">   [LinkedIn](www.linkedin.com/in/sireesha-putcha)
 
-| <img src= "images/Logos/facebook.png" alt = "Fb" height = "35" width = "35"> | [Facebook](https://www.facebook.com/sireesha.putcha98/)|
+<img src= "images/Logos/facebook.png" alt = "Fb" height = "30" width = "30">  [Facebook](https://www.facebook.com/sireesha.putcha98/)
 
-| <img src= "images/Logos/chat.png" alt = "Portfolio" height = "35" width = "35"> |  [Portfolio](https://sites.google.com/view/sireeshaputcha/home)|
+<img src= "images/Logos/chat.png" alt = "Portfolio" height = "30" width = "30">   [Portfolio](https://sites.google.com/view/sireeshaputcha/home)
 
-| <img src= "images/Logos/mail.png" alt = "Mail" height = "35" width = "35"> |  [Mail](sireesha@seas.upenn.edu)|
+<img src= "images/Logos/mail.png" alt = "Mail" height = "30" width = "30">   [Mail](sireesha@seas.upenn.edu)
 
 
 
