@@ -6,9 +6,7 @@ Project 0 Getting Started
 ## SIREESHA PUTCHA 
 
 	
-<img src= "images/Logos/linkedin.png" alt = "LinkedIn" height = "25" width = "25"> 
-<img src= "images/Logos/chat.png" alt = "Portfolio" height = "25" width = "25"> 
-<img src= "images/Logos/facebook.png" alt = "Fb" height = "25" width = "25">  
+<img src= "images/Logos/linkedin.png" alt = "LinkedIn" height = "35" width = "35">        <img src= "images/Logos/chat.png" alt = "Portfolio" height = "35" width = "35">             <img src= "images/Logos/facebook.png" alt = "Fb" height = "35" width = "35">  
 
 ###  [LinkedIn](www.linkedin.com/in/sireesha-putcha) [Portfolio](https://sites.google.com/view/sireeshaputcha/home)  [Facebook](https://www.facebook.com/sireesha.putcha98/)
 
