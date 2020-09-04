@@ -6,7 +6,7 @@ Project 0 Getting Started
 * Sanjana Rao
   * https://www.linkedin.com/in/sanjanaxrao/
   * https://www.sanjanaxrao.com/
-* Tested on: GTX 222 222MB (Moore 2222 Lab)
+* Tested on: GTX 222 222MB (CETS Virtual Lab)
 
 ### README
 
