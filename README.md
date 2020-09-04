@@ -7,6 +7,11 @@ Project 0 Getting Started
   * [LinkedIn](https://www.linkedin.com/in/sydney-miller-upenn/)
 * Tested on: GTX 222 222MB (CETS Virtual Lab)
 
+
+### README
+* Compute Capability
+Quadro P1000: 6.1
+
 * Part 3.1.1: Modify the CUDA Project Screenshot
 ![](images/3-1-1.PNG)
 
