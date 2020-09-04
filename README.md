@@ -22,7 +22,7 @@ Part 3.1.2: Timeline
 <br />
 ![Timeline](images/Timeline.jpeg)
 
-Part 3.1.3: 
+Part 3.1.3: Autos and Warp Info
 <br />
 ![Autos](images/Autos.jpeg)
 ![Warp Info](images/Warp_Info.jpeg)
