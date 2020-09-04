@@ -4,7 +4,7 @@ Project 0 Getting Started
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
 * Dayu Li
-  *[LinkedIn](https://www.linkedin.com/in/dayu95/), [personal website](), [twitter](), etc.
+  * [LinkedIn](https://www.linkedin.com/in/dayu95/)
 * Tested on: Windows 10, i5-9400F @ 2.90GHz 8GB, GTX 1660 (Personal)
 
 ## Result:
