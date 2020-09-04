@@ -3,12 +3,33 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Xuanyi Zhou
+  * [LinkedIn](https://www.linkedin.com/in/xuanyi-zhou-661365192/)
+  * [Github](https://github.com/lukedan)
+* Tested on: Windows 10, i7-9750H @ 2.60GHz 32GB, RTX 2060 6GB, personal laptop
 
-### (TODO: Your README)
+## CUDA Test
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+![](images/cuda.png)
 
+## CUDA Trace
+
+![](images/trace.png)
+
+## CUDA Debugging
+
+- Since my graphics card is not supported by the legacy debugger, therer's no 'CUDA Info' window. Here's a screenshot of the 'Warp Info' window instead.
+
+![](images/warp.png)
+
+![](images/autos.png)
+
+## WebGL
+
+![](images/webgl.png)
+
+## DXR
+
+- At first the program kept crashing due to objects being in invalid states. I investigated it for a while and discovered that having the RivaTuner Statistics Server running causes it (you can see it in the 'CUDA Test' screenshot).
+
+![](images/dxr.png)
