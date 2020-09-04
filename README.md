@@ -20,7 +20,7 @@ Here is the screenshots that I took during this assignment.
 
 (Part 3.1.2) This is the screenshot of the timeline analysis using Nsight:
 
-![](images/timeline screenshot.PNG) 
+![image two](/images/timeline screenshot.PNG) 
 
 (Part 3.1.3) This is a screenshot of debugging using Nsight:
 
