@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\tpura\Desktop\CIS 565 GPU\Project0-Getting-Started\build\CMakeFiles\4a1dc0016eff21d62de6aabb9d1276d2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{97ED0B7A-735F-30BA-A606-852DAFC2AE7A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

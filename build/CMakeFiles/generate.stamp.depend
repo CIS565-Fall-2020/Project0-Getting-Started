@@ -1,0 +1,35 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindCUDA/run_nvcc.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindCUDA/select_compute_arch.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.18/Modules/Platform/WindowsPaths.cmake
+C:/Users/tpura/Desktop/CIS 565 GPU/Project0-Getting-Started/build/CMakeFiles/3.18.2/CMakeCCompiler.cmake
+C:/Users/tpura/Desktop/CIS 565 GPU/Project0-Getting-Started/build/CMakeFiles/3.18.2/CMakeCXXCompiler.cmake
+C:/Users/tpura/Desktop/CIS 565 GPU/Project0-Getting-Started/build/CMakeFiles/3.18.2/CMakeRCCompiler.cmake
+C:/Users/tpura/Desktop/CIS 565 GPU/Project0-Getting-Started/build/CMakeFiles/3.18.2/CMakeSystem.cmake
+C:/Users/tpura/Desktop/CIS 565 GPU/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.cmake.pre-gen
+C:/Users/tpura/Desktop/CIS 565 GPU/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend
+C:/Users/tpura/Desktop/CIS 565 GPU/Project0-Getting-Started/cuda-getting-started/CMakeLists.txt
+C:/Users/tpura/Desktop/CIS 565 GPU/Project0-Getting-Started/cuda-getting-started/cmake/CUDAComputesList.cmake
+C:/Users/tpura/Desktop/CIS 565 GPU/Project0-Getting-Started/cuda-getting-started/cmake/FindGLEW.cmake
+C:/Users/tpura/Desktop/CIS 565 GPU/Project0-Getting-Started/cuda-getting-started/cmake/FindGLFW.cmake
+C:/Users/tpura/Desktop/CIS 565 GPU/Project0-Getting-Started/cuda-getting-started/cmake/cuda_compute_capability.cpp
