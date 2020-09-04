@@ -8,7 +8,7 @@ Project 0 Getting Started
 * Tested on: personal computer: Windows 10, i7-8750H @ 2.20GHz 22GB, GTX 1070 
 
 ** Screenshots
-* Part 3.1.1: ![Initial build and run of CUDA project](image/3.1.1.PNG)
+* Part 3.1.1: ![Initial build and run of CUDA project](images/3.1.1.PNG)
 
 * Part 3.1.2: Timeline reports
 ![Timeline report 1](images/3.1.2_0.PNG)
