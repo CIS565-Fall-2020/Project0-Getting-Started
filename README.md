@@ -19,13 +19,16 @@ Part 3.1.1:
 ![Modify CUDA Project Titlebar](images/Modify_CUDA_Project_Titlebar.jpeg)
 
 Part 3.1.2: 
+<br />
 ![Timeline](images/Timeline.jpeg)
 
 Part 3.1.3: 
+<br />
 ![Autos](images/Autos.jpeg)
 ![Warp Info](images/Warp_Info.jpeg)
 
 Part 3.2: WebGL.jpeg
+<br />
 ![WebGL](images/WebGL.jpeg)
 
 Part 3.3: I am working on a CETS Virtual Lab, so I cannot enable Developer Mode without admin support.
