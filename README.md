@@ -7,7 +7,6 @@ Project 0 Getting Started
 *[LinkedIn](https://www.linkedin.com/in/thy-tran-97a30b148/), [personal website](https://tatran5.github.io/)
 * Tested on: personal computer: Windows 10, i7-8750H @ 2.20GHz 22GB, GTX 1070 
 
-** Screenshots
 * Part 3.1.1: ![Initial build and run of CUDA project](images/3.1.1.PNG)
 
 * Part 3.1.2: Timeline reports
