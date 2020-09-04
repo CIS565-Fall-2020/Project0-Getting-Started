@@ -3,12 +3,21 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Thy Tran (Tea)
+*[LinkedIn](https://www.linkedin.com/in/thy-tran-97a30b148/), [personal website](https://tatran5.github.io/)
+* Tested on: personal computer: Windows 10, i7-8750H @ 2.20GHz 22GB, GTX 1070 
 
-### (TODO: Your README)
+* Part 3.1.1: ![Initial build and run of CUDA project](images/3.1.1.PNG)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+* Part 3.1.2: Timeline reports
+![Timeline report 1](images/3.1.2_0.PNG)
+![Timeline report 2](images/3.1.2_1.PNG)
+![Timeline report 3](images/3.1.2_2.PNG)
 
+* Part 3.1.3: ![Nsight debugging](images/3.1.3.PNG)
+
+* Part 3.2: WebGL support
+![WebGL 1](images/3.2_webgl_1.PNG)
+![WebGL 2](images/3.2_webgl_2.PNG)
+
+* Part 3.3: ![DXR compatibility](images/3.3.PNG)
