@@ -21,6 +21,9 @@ Part 3.1.1: Modify the CUDA Project and Take a Screenshot
 Part 3.1.2: Analyze
 ![](images/scrnshot3.PNG)
 
+Part 3.1.3: Nsight Debugging
+![](images/scrnshot4.PNG)
+
 Part 3.2: WebGL
 ![](images/scrnshot2.PNG)
 
