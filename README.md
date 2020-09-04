@@ -12,6 +12,8 @@ Project 0 Getting Started
 
 <img src= "images/Logos/chat.png" alt = "Portfolio" height = "35" width = "35">   [Portfolio](https://sites.google.com/view/sireeshaputcha/home) 
 
+<img src= "images/Logos/mail.png" alt = "Portfolio" height = "35" width = "35">   [Portfolio](sireesha@seas.upenn.edu) 
+
 
 * Tested on: Microsoft Windows 10 Pro, Processor	Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, 2601 Mhz, 6 Core(s), 12 Logical Processor(s) NVIDIA GeForce RTX 2060
 
