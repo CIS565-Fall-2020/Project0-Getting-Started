@@ -3,12 +3,37 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+## SIREESHA PUTCHA 
+       ![](images/Logos/linkedin.png =20x20)	![](images/Logos/chat.png =20x20)	![](images/Logos/fb.png =20x20)
+	###  [LinkedIn](www.linkedin.com/in/sireesha-putcha)     [Portfolio](https://sites.google.com/view/sireeshaputcha/home)     [Facebook](https://www.facebook.com/sireesha.putcha98/)
 
-### (TODO: Your README)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+* Tested on: Microsoft Windows 10 Pro, Processor	Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, 2601 Mhz, 6 Core(s), 12 Logical Processor(s) NVIDIA GeForce RTX 2060
 
+
+### 1) Part 3.1 - CUDA Project Test 
+
+![](images/initial.png)
+
+### 2) Part 3.1.2 Performance Analysis 
+
+![](images/performance_analysis.png)
+
+### 3) Part 3.1.3 NSight Debugging 
+
+![](images/NSightDebugInfo.png)
+
+![](images/NSightDebugInfo2.png)
+
+
+### 4) Part 3.2 WebGL Support 
+
+![](images/webgl_support.png)
+
+![](images/webgl_support1.png)
+
+### 5) Part 3.3 DXR 
+ 
+![](images/dxr_support.png)
+
+![](images/changed_tri_color.png)
