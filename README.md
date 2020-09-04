@@ -4,9 +4,16 @@ Project 0 Getting Started
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
 ## SIREESHA PUTCHA 
-![](images/Logos/linkedin.png =20x20)	![](images/Logos/chat.png =20x20)	![](images/Logos/fb.png =20x20)
-###  [LinkedIn](www.linkedin.com/in/sireesha-putcha)     [Portfolio](https://sites.google.com/view/sireeshaputcha/home)     [Facebook](https://www.facebook.com/sireesha.putcha98/)
 
+
+![](images/Logos/linkedin.png)		
+###  [LinkedIn](www.linkedin.com/in/sireesha-putcha)          
+
+![](images/Logos/chat.png)
+### [Portfolio](https://sites.google.com/view/sireeshaputcha/home)
+
+![](images/Logos/fb.png )
+### [Facebook](https://www.facebook.com/sireesha.putcha98/)
 
 * Tested on: Microsoft Windows 10 Pro, Processor	Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, 2601 Mhz, 6 Core(s), 12 Logical Processor(s) NVIDIA GeForce RTX 2060
 
