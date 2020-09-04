@@ -1,0 +1,10 @@
+^D:\USERS\SARANYA\FALL 2020\CIS565 GPU\PROJECT0-GETTING-STARTED\BUILD\CMAKEFILES\348E290986A04186DB4A26443406F4B5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SD:/Users/Saranya/Fall 2020/CIS565 GPU/Project0-Getting-Started/cuda-getting-started" "-BD:/Users/Saranya/Fall 2020/CIS565 GPU/Project0-Getting-Started/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "D:/Users/Saranya/Fall 2020/CIS565 GPU/Project0-Getting-Started/build/cis565_getting_started.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
