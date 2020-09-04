@@ -1,14 +1,44 @@
+
+
 Project 0 Getting Started
 ====================
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Tushar Purang
+  
+  * [Linkedin](https://www.linkedin.com/in/tpurang/)
+  
+  * [Portfolio](http://tushvr.com/)
+  
+  * [Youtube Channel](https://www.youtube.com/channel/UC9ZTxWcJjCSAJDC54dPNbKw?view_as=subscriber)
+  
+* Tested on: Windows 10, i7-7700HQ @ 2.80GHz 16GB, GTX 1060 6GB (Personal laptop)
 
-### (TODO: Your README)
+### CUDA TEST
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+![](images/name.PNG)
 
+
+
+### CUDA TRACE
+
+![](images/analysis.PNG)
+
+
+
+### CUDA Debugging
+
+![](images/NsightDebugging.PNG)
+
+
+
+### WebGL
+
+### ![](images/webgl.PNG)
+
+
+
+### DXR
+
+![](images/DXR.PNG)
