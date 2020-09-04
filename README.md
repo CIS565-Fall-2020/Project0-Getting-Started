@@ -5,15 +5,12 @@ Project 0 Getting Started
 
 ## SIREESHA PUTCHA 
 
+	
+<img src= "images/Logos/linkedin.png" alt = "LinkedIn" height = "25" width = "25"> 
+<img src= "images/Logos/chat.png" alt = "Portfolio" height = "25" width = "25"> 
+<img src= "images/Logos/facebook.png" alt = "Fb" height = "25" width = "25">  
 
-![](images/Logos/linkedin.png height = 10 width = 10)		
-###  [LinkedIn](www.linkedin.com/in/sireesha-putcha)          
-
-![](images/Logos/chat.png height = 10 width = 10)
-### [Portfolio](https://sites.google.com/view/sireeshaputcha/home)
-
-<img src= "images/Logos/facebook.png" alt = "Fb" height = "10" width = "10"> 
-### [Facebook](https://www.facebook.com/sireesha.putcha98/)
+###  [LinkedIn](www.linkedin.com/in/sireesha-putcha) [Portfolio](https://sites.google.com/view/sireeshaputcha/home)  [Facebook](https://www.facebook.com/sireesha.putcha98/)
 
 * Tested on: Microsoft Windows 10 Pro, Processor	Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz, 2601 Mhz, 6 Core(s), 12 Logical Processor(s) NVIDIA GeForce RTX 2060
 
