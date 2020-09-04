@@ -14,11 +14,11 @@ anything here that you don't want to share with the world.)
 
 Part 3.1: Compute Capability of 6.1 (GPU Quadro P1000)
 
-Part 3.1.1: 
+Part 3.1.1: Modified CUDA Project Titlebar
 <br />
 ![Modify CUDA Project Titlebar](images/Modify_CUDA_Project_Titlebar.jpeg)
 
-Part 3.1.2: 
+Part 3.1.2: Timeline
 <br />
 ![Timeline](images/Timeline.jpeg)
 
@@ -27,7 +27,7 @@ Part 3.1.3:
 ![Autos](images/Autos.jpeg)
 ![Warp Info](images/Warp_Info.jpeg)
 
-Part 3.2: WebGL.jpeg
+Part 3.2: WebGL
 <br />
 ![WebGL](images/WebGL.jpeg)
 
