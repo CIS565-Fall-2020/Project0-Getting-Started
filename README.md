@@ -16,21 +16,21 @@ Here is the screenshots that I took during this assignment.
 
 (Part 3.1.1) This is the screenshot of the green and black window with my name on the top after I changed that in the main.cpp code: 
 
-![](images/window with name.PNG)
+![](images/name.PNG)
 
 (Part 3.1.2) This is the screenshot of the timeline analysis using Nsight:
 
-![image two](/images/timeline screenshot.PNG) 
+![](/images/timeline_screenshot.PNG) 
 
 (Part 3.1.3) This is a screenshot of debugging using Nsight:
 
-![](images/Yellow Arrow Warp Info.PNG)
+![](images/yellow_arrow.PNG)
 
 (Part 3.2) Here are screenshots of the WebGL testing: 
 
-![](images/webGL available.PNG)
+![](images/webGL_available.PNG)
 
-![](images/WebGL report.PNG)
+![](images/WebGL_report.PNG)
 
 (3.3) Here is a screenshot of the triangle that renders. I am using DXR mode here, and I modified the triangle to be blue. 
 
