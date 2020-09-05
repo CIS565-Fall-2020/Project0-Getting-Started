@@ -5,7 +5,7 @@ Project 0 Getting Started
 
 * Shenyue Chen
   * [LinkedIn](https://www.linkedin.com/in/shenyue-chen-5b2728119/), [personal website](http://github.com/EvsChen)
-* Tested on: Windows 10, i7-9700 @ 3.00GHz 32GB, Quardro P1000 (Towne M70)
+* Tested on: Windows 10, Intel Xeon Platinum 8259CL @ 2.50GHz 16GB, Tesla T4 (AWS g4dn-xlarge)
 
 ### CUDA SM Result
 <p align="center">
@@ -13,11 +13,13 @@ Project 0 Getting Started
 </p>
 
 ### CUDA Analyze Result
-Since the Nsight extension always crashes when I tries opening the Timeline, I did not get a screenshot of this.
+<p align="center">
+<image src="images/nsight-timeline.png"/>
+</p>
 
 ### CUDA Debug Result
 <p align="center">
-<image src="images/cuda-debug.png"/>
+<image src="images/nsight-debug.png"/>
 </p>
 
 ### WebGL Result
@@ -26,4 +28,6 @@ Since the Nsight extension always crashes when I tries opening the Timeline, I d
 </p>
 
 ### DXR Result
-I'm using the CETS virtual lab so I did not finish this part.
+<p align="center">
+<image src="images/dxr.png"/>
+</p>
