@@ -1,0 +1,3 @@
+S:/Downloads/Project0-Getting-Started/cuda-getting-started/build/CMakeFiles/cis565_getting_started.dir
+S:/Downloads/Project0-Getting-Started/cuda-getting-started/build/CMakeFiles/ALL_BUILD.dir
+S:/Downloads/Project0-Getting-Started/cuda-getting-started/build/CMakeFiles/ZERO_CHECK.dir
