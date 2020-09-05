@@ -7,8 +7,12 @@ Project 0 Getting Started
   * [LinkedIn](https://www.linkedin.com/in/weiyu-du/)
 * Tested on: CETS virtual lab MOR100C-08, Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 
 
-### (TODO: Your README)
+### README
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
-
+### 3.1 CUDA
+![](images/cuda1.png)
+![](images/cuda2.png)
+![](images/cuda3.png)
+### 3.1 WebGL
+![](images/webgl1.png)
+![](images/webgl2.png)
