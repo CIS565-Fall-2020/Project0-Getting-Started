@@ -3,12 +3,40 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Qiaosen Chen
+  * [LinkedIn](https://www.linkedin.com/in/qiaosen-chen-725699141/)
+* Tested on: Windows 10, Intel(R) Core (TM) i5-9400 CPU @ 2.70GHz, NVIDIA GeForce GTX 1070 (personal computer).-
 
-### (TODO: Your README)
+## *Checking WebGL status*
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+![Chrome pic1](/images/chrome1.png)
 
+![Chrome pic2](/images/chrome2.png)
+
+![Chrome pic3](/images/chrome3.png)
+
+![Chrome pic4](/images/chrome4.png)
+
+![Chrome pic5](/images/chrome5.png)
+
+![Chrome pic6](/images/chrome6.png)
+
+
+
+## DXR
+
+![Triangle](/images/triangle.png)
+
+
+
+## Modify
+
+![Modification](/images/cuda_test.png)
+
+
+
+## Analyze
+
+![Modification](/images/timeline.png)
+
+![Modification](/images/cuda_debug.png)
