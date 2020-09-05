@@ -13,9 +13,9 @@ Project 0 Getting Started
 
 1. Compute Capability of your CUDA-compatible GPU: 7.5
 2. Screenshots
-  * `\images\Part2.2_webgl.png`
-  * `\images\Part2.3_DXR.png`
-  * `\images\Part4_Modify.png`
-  * `\images\Part5_Analyze.png`
-  * `\images\Part6_Nsight.png`
+  * `\images\WebGL.png`
+  * `\images\DXR.png`
+  * `\images\CUDA.png`
+  * `\images\Analyze.png`
+  * `\images\Nsight_Debugging.png`
 
