@@ -2,7 +2,7 @@
 *.filters
 *.vcxproj
 *.xcodeproj
-build
+
 
 # Created by https://www.gitignore.io/api/linux,osx,sublimetext,windows,jetbrains,vim,emacs,cmake,c++,cuda,visualstudio,webstorm,eclipse,xcode
 
