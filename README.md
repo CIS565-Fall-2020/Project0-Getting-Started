@@ -16,7 +16,7 @@ Part 3.1: Compute Capability of 6.1 (GPU Quadro P1000)
 
 Part 3.1.1: Modified CUDA Project Titlebar
 <br />
-![Modify CUDA Project Titlebar](images/Modify_CUDA_Project_Titlebar.jpeg)
+![Modify CUDA Project Titlebar](images/Modify_CUDA_Project_Titlebar.jpeg | width=100)
 
 Part 3.1.2: Timeline
 <br />
