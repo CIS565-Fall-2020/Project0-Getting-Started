@@ -1,1 +1,16 @@
 ﻿  Checking Build System
+  CMake is re-running because C:/Users/keyiy/Penn/CIS565/Project0-Getting-Started/build/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/keyiy/Penn/CIS565/Project0-Getting-Started/build/CMakeFiles/cis565_getting_started.dir/src/cis565_getting_started_generated_kernel.cu.obj.depend'
+    is newer than 'C:/Users/keyiy/Penn/CIS565/Project0-Getting-Started/build/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.18363.
+  -- C:/Users/keyiy/Penn/CIS565/Project0-Getting-Started/cuda-getting-started/cmake/cuda_compute_capability.cpp
+  -- CUDA Compute Detection Output: Exit code 0xc0000135
+  
+  -- CUDA Compute Detection Return: FAILED_TO_RUN
+  -- CUDA Compute Detection Failed
+  -- Number of Computes Detected = 0
+  -- Setting Compute 75 to ON
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/keyiy/Penn/CIS565/Project0-Getting-Started/build
