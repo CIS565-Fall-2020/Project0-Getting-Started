@@ -27,7 +27,7 @@ __global__ void createVersionVisualization(uchar4* PBOpos, int width, int height
     int y = (blockIdx.y * blockDim.y) + threadIdx.y;
     int index = x + (y * width);
 
-    if (x <= width && y <= height) {
+	    if (x <= width && y <= height) {
         // Each thread writes one pixel location in the texture (textel)
         PBOpos[index].w = 0;
         PBOpos[index].x = 0;
