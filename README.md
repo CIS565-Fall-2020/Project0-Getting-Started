@@ -13,6 +13,8 @@ Project 0 Getting Started
 ![](images/cuda1.png)
 ![](images/cuda2.png)
 ![](images/cuda3.png)
-### 3.1 WebGL
+### 3.2 WebGL
 ![](images/webgl1.png)
 ![](images/webgl2.png)
+### 3.3 DXR
+Cannot complete 3.3 because of running on CETS machine
