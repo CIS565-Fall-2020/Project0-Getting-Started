@@ -11,7 +11,7 @@
  */
 int main(int argc, char* argv[]) {
     // TODO: Change this line to use your name!
-    m_yourName = "TODO: YOUR NAME HERE";
+    m_yourName = "Janine Liu";
 
     if (init(argc, argv)) {
         mainLoop();
@@ -49,8 +49,8 @@ bool init(int argc, char **argv) {
     if (!glfwInit()) {
         return false;
     }
-    m_width = 800;
-    m_height = 800;
+    m_width = 1500;
+    m_height = 1500;
     m_window = glfwCreateWindow(m_width, m_height, deviceName.c_str(), NULL, NULL);
     if (!m_window) {
         glfwTerminate();
