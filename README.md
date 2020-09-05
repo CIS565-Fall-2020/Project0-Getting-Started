@@ -3,12 +3,31 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+* Shenyue Chen
+  * [LinkedIn](https://www.linkedin.com/in/shenyue-chen-5b2728119/), [personal website](http://github.com/EvsChen)
+* Tested on: Windows 10, Intel Xeon Platinum 8259CL @ 2.50GHz 16GB, Tesla T4 (AWS g4dn-xlarge)
 
-### (TODO: Your README)
+### CUDA SM Result
+<p align="center">
+<image src="images/cuda-screen-shot.png"/>
+</p>
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+### CUDA Analyze Result
+<p align="center">
+<image src="images/nsight-timeline.png"/>
+</p>
 
+### CUDA Debug Result
+<p align="center">
+<image src="images/nsight-debug.png"/>
+</p>
+
+### WebGL Result
+<p align="center">
+<image src="images/webgl.png"/>
+</p>
+
+### DXR Result
+<p align="center">
+<image src="images/dxr.png"/>
+</p>
