@@ -3,12 +3,19 @@ Project 0 Getting Started
 
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
-* (TODO) YOUR NAME HERE
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
 
-### (TODO: Your README)
+* Keyi Yu
+  * https://www.linkedin.com/in/keyi-linda-yu-8b1178137/
+* Tested on: Windows 10, i7-10750H @ 2.60GHz 16GB, GeForce RTX 2070 with Max-Q 8228MB (My Machine)
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+### README
+
+
+1. Compute Capability of your CUDA-compatible GPU: 7.5
+2. Screenshots
+  * `\images\WebGL.png`
+  * `\images\DXR.png`
+  * `\images\CUDA.png`
+  * `\images\Analyze.png`
+  * `\images\Nsight_Debugging.png`
 

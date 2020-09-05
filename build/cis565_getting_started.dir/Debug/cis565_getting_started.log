@@ -1,0 +1,5 @@
+﻿glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\Users\keyiy\Penn\CIS565\Project0-Getting-Started\build\bin\Debug\vc120.pdb'; linking object as if no debug info
+     Creating library C:/Users/keyiy/Penn/CIS565/Project0-Getting-Started/build/lib/Debug/cis565_getting_started.lib and object C:/Users/keyiy/Penn/CIS565/Project0-Getting-Started/build/lib/Debug/cis565_getting_started.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  cis565_getting_started.vcxproj -> C:\Users\keyiy\Penn\CIS565\Project0-Getting-Started\build\bin\Debug\cis565_getting_started.exe
