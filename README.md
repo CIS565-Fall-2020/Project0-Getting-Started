@@ -4,8 +4,8 @@ Project 0 Getting Started
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
 * Weiyu Du
-  * (TODO) [LinkedIn](https://www.linkedin.com/in/weiyu-du/), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+  * [LinkedIn](https://www.linkedin.com/in/weiyu-du/)
+* Tested on: CETS virtual lab MOR100C-08, Intel(R) Core(TM) i7-9700 CPU @ 3.00GHz 
 
 ### (TODO: Your README)
 
