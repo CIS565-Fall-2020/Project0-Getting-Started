@@ -8,7 +8,7 @@ Project 0 Getting Started
 * Tested on: MOR100C-13 (CETS Virtual Machine)
 
 
-**Part 3.1: CUDA**
+**Part 3.1: CUDA Project**
 
 My GPU: Quadro P1000
 My GPU's CUDA-Compatability: 6.1
@@ -32,6 +32,6 @@ My GPU's CUDA-Compatability: 6.1
 **Part 3.3: DXR**
 
 My computer does not have any level of RTX support.
-I am using a CETS computer and thus cannot complete part 3.3 for identifying th elevel of DXR support.
+I am using a CETS computer and thus cannot complete part 3.3 for identifying the level of DXR support.
 
 
