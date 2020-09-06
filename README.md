@@ -8,12 +8,12 @@ Project 0 Getting Started
 * Tested on: MOR100C-13 (CETS Virtual Machine)
 
 
-**Part 3.1: CUDA Project**
+**Part 3.1: CUDA**
 
 My GPU: Quadro P1000
 My GPU's CUDA-Compatability: 6.1
 
-**Part 3.1.1: Modify the CUDA**
+**Part 3.1.1: Modify the CUDA Project**
 
 ![](images/name_change.png)
 
