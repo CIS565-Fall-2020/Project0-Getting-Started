@@ -70,13 +70,14 @@ void MyRaygenShader()
 void MyClosestHitShader(inout RayPayload payload, in MyAttributes attr)
 {
     float3 barycentrics = float3(1 - attr.barycentrics.x - attr.barycentrics.y, attr.barycentrics.x, attr.barycentrics.y);
+    barycentrics = float3(0.0, 0.8, 0.0);
     payload.color = float4(barycentrics, 1);
 }
 
 [shader("miss")]
 void MyMissShader(inout RayPayload payload)
 {
-    payload.color = float4(0, 0, 0, 1);
+    payload.color = float4(0.5, 0.0, 0, 1);
 }
 
 #endif // RAYTRACING_HLSL
