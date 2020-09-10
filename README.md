@@ -4,11 +4,30 @@ Project 0 Getting Started
 **University of Pennsylvania, CIS 565: GPU Programming and Architecture, Project 0**
 
 * Hanyu Liu
-  * (TODO) [LinkedIn](), [personal website](), [twitter](), etc.
-* Tested on: (TODO) Windows 22, i7-2222 @ 2.22GHz 22GB, GTX 222 222MB (Moore 2222 Lab)
+  * [personal website](http://liuhanyu.net/) 
+* Tested on: Windows 10, Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz 16.0GB, GeForce GTX 1050 (Personal)
 
-### (TODO: Your README)
+### Compute Capability
 
-Include screenshots, analysis, etc. (Remember, this is public, so don't put
-anything here that you don't want to share with the world.)
+GeForce GTX 1050: 6.1
+
+### Section 3.1.1
+![](images/3.1.1.png)
+
+### Section 3.1.2
+![](images/3.1.2.png)
+
+### Section 3.1.3 Autos
+![](images/3.1.3_autos.png)
+
+### Section 3.1.3 Warp
+![](images/3.1.3_warp.png)
+
+### Section 3.2
+![](images/3.2.png)
+
+### Section 3.3
+I do not have a DXR compatible GPU unfortunately ):
+
+
 
